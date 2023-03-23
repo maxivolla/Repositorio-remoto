@@ -1,0 +1,23 @@
+hola mundo como va? esto es una gia para subir archivos a un repositorio remoto en github
+primero hago click derecho en la carpeta que queremos subir y abrimos con Git bash
+cuando abre el git bash vamos a poner el comando
+$ git init
+ *ahi vamos a ver que nos va a salir arriba entre parentesis (master) o  (main)
+ segundo ponemos el comando
+$git remote add origin (URL *aqui vamos a poner la url que nos aparece en nuestro nuevo repositorio)
+
+nos fijamos que el nombre no haya cambiado de (main a master) si cambio ponemos el comando
+
+$ git branch -m main
+
+$ git status [para fijarnos los archivos para subir o ya subidos ]
+
+$git add . [para subir todos los archivos sin subir]
+
+$git status [para ver que se hayan subido los archivos]
+
+$git commit -m "mensaje" [para preparar los archivos para subirlos]
+
+$git push origin main [para subir al repositorio remoto]
+
+FIN
